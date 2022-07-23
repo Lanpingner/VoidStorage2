@@ -3,6 +3,8 @@ package dev.Lanpingner.VoidStorage;
 import dev.Lanpingner.VoidStorage.blocks.vsControllerBlock;
 import dev.Lanpingner.VoidStorage.init.VSBlockItemRegister;
 import dev.Lanpingner.VoidStorage.init.VSBlockRegister;
+import dev.Lanpingner.VoidStorage.world.ores.VSConfigureFeatures;
+import dev.Lanpingner.VoidStorage.world.ores.VSPlacedFeatures;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +27,8 @@ public class VoidStorage {
 
         VSBlockRegister.OWNBLOCKS.register(bus);
         VSBlockItemRegister.OWNBLOCKITEMS.register(bus);
+        VSConfigureFeatures.CONFIGURED_FEATURE_DEFFERED_REGISTER.register(bus);
+        VSPlacedFeatures.PLACED_FEATURE_DEFERRED_REGISTER.register(bus);
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(vsControllerBlock.class);
     }

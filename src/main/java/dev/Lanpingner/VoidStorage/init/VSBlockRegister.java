@@ -20,4 +20,6 @@ public class VSBlockRegister {
 			vsControllerBlock::new);
 	public static final RegistryObject<Block> VSDISK_DRIVE_BLOCK = OWNBLOCKS.register(VSDISK_DRIVE_BLOCK_NAME,
 			() -> new vsblock(null));
+
+	public static final RegistryObject<Block> VS_VOIDORE_BLOCK = OWNBLOCKS.register(VSORE_VOID_ORE_NAME,() ->new vsblock(null));
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "voidstorage:block/vscontroller_block"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "block.voidstorage.vscontroller_block": "Void Storage Controller",
+  "itemGroup.voidstorage": "Void Storage",
+  "block.voidstorage.vsdisk_drive_block": "Disk Host Block"
+}

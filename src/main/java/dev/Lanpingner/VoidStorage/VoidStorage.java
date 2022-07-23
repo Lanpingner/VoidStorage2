@@ -4,7 +4,6 @@ import dev.Lanpingner.VoidStorage.blocks.vsControllerBlock;
 import dev.Lanpingner.VoidStorage.init.VSBlockItemRegister;
 import dev.Lanpingner.VoidStorage.init.VSBlockRegister;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;

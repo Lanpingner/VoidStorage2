@@ -18,7 +18,7 @@ public class vsControllerBlock extends vsblock {
     @SubscribeEvent
     public static void onPlace(BlockEvent.EntityPlaceEvent event) {
         System.out.println("Placeesadasdd very good" + event.getPlacedBlock().getBlock().getName());
-        event.setCanceled(true);
+        event.setCanceled(false);
     }
 
 }
